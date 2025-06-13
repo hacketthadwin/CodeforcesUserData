@@ -1,4 +1,4 @@
-# 🏥 Healthcare Accessibility Platform
+# 🏥 Healthcare Accessibility Platform (CURRENTLY 50% COMPLETED)
 
 A full-stack healthcare web application designed to improve accessibility for underserved communities. It enables symptom tracking, secure health record storage, telemedicine booking, and user notifications — all through a clean, modern web experience.
 
@@ -46,8 +46,4 @@ A full-stack healthcare web application designed to improve accessibility for un
 - Multer (File uploads)
 - **Nodemailer** (Email-based notifications)
 - **node-cron** (Scheduled reminders)
-
----
-
-## 📁 Project Structure
 
