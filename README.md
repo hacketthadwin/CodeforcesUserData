@@ -1,4 +1,4 @@
-# 📊 Student Progress Management System
+# 📊 Student Progress Management System (Currently 70% completed)
 
 A full-stack web application to manage and monitor students' competitive programming progress using data from [Codeforces](https://codeforces.com).
 
