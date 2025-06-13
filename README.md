@@ -36,7 +36,7 @@ A full-stack healthcare web application designed to improve accessibility for un
 - React Router
 - Axios
 - Chart.js
-- Framer Motion (optional animations)
+- Framer Motion
 
 ### 🔧 Backend
 - Node.js + Express.js
