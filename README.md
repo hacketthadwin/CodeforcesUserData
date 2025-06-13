@@ -1,54 +1,51 @@
-# 📊 Student Progress Management System (Currently 70% completed)
+# 🏥 Healthcare Accessibility Platform
 
-A full-stack web application to manage and monitor students' competitive programming progress using data from [Codeforces](https://codeforces.com).
+A full-stack healthcare web application designed to improve accessibility for underserved communities. It enables symptom tracking, secure health record storage, telemedicine booking, and user notifications — all through a clean, modern web experience.
 
 ---
 
 ## 🚀 Features
 
-### 🧑‍🎓 Student Table View
-- View all enrolled students with:
-  - Name, Email, Phone, Codeforces Handle
-  - Current & Max Rating
-- Add, Edit, Delete student entries
-- Download student data as CSV
-- View detailed Codeforces profile
+### 📁 Digital Health Records
+- Upload and store prescriptions, reports, and health summaries
+- View/download previous records anytime
+- Secure access per registered user
 
-### 📈 Student Profile View
-On clicking a student row:
-1. **Contest History**
-   - Filters: Last 30, 90, or 365 days
-   - Rating graph
-   - Contest list with rank, rating change & unsolved problems
+### 📅 Telemedicine Booking
+- Patients can book video consultations with available doctors
+- Doctors can manage their availability via dashboard
+- Booking confirmation via email
 
-2. **Problem Solving Analytics**
-   - Filters: Last 7, 30, or 90 days
-   - Most difficult problem solved
-   - Total problems, average rating, problems/day
-   - Bar chart by rating bucket
-   - Submission heatmap
+### 📊 Symptom Tracker
+- Daily logs of symptoms (e.g., pain levels, temperature)
+- Visualize progress with interactive charts
+- Track trends and spot deterioration early
 
-### 🔄 Codeforces Data Sync
-- Daily data sync using Cron (default: 2 AM)
-- On-handle update → triggers real-time sync
-- Show `lastSynced` timestamp on main table
-
-### 📧 Inactivity Detection
-- Detect students inactive for 7+ days
-- Auto email reminders
-- Show count of reminders sent
-- Option to disable emails for individuals
+### 🔔 Reminder System
+- Set reminders for medication, checkups, and exercise
+- Delivered via **email** using Nodemailer
+- Option to enable/disable notifications
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Tailwind CSS, Chart.js / Recharts
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
-- **Cron Job:** node-cron
-- **Emailing:** Nodemailer
-- **Codeforces API**
+### 🖥️ Frontend
+- React.js
+- Tailwind CSS
+- React Router
+- Axios
+- Chart.js
+- Framer Motion (optional animations)
+
+### 🔧 Backend
+- Node.js + Express.js
+- MongoDB + Mongoose
+- JWT (Authentication)
+- bcrypt (Password hashing)
+- Multer (File uploads)
+- **Nodemailer** (Email-based notifications)
+- **node-cron** (Scheduled reminders)
 
 ---
 
